@@ -1,4 +1,10 @@
-node_modules
+# Misc
+*.log
+npm-debug.*
 .DS_Store
 .env
-_site
+.cache
+
+# Node modules and output
+node_modules
+dist
