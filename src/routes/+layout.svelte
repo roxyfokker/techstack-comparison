@@ -15,8 +15,7 @@
 
 	import Header from '$lib/components/organisms/Header.svelte'
 	import { pages } from '$lib/data/pages'
-	import Hero from '$lib/components/organisms/Hero.svelte'
-	
+
 	let { children } = $props()
 
 	import { onNavigate } from '$app/navigation'
@@ -37,13 +36,20 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<Header {pages} />
+<div class="wrapper">
+	<Header {pages} />
 
-<Hero {pages} />
+	<main id="main">
+	{@render children()}
+	</main>
+</div>
 
-<main id="main">
-  {@render children()}
-</main>
 
 <Locations />
 <Footer />
+
+<style>
+	.wrapper{
+		margin: 5rem 3.8rem;
+	}
+</style>

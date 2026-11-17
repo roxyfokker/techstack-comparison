@@ -38,12 +38,14 @@
 	{text}
 	{#if hiddenText}<span class="visually-hidden">{hiddenText}</span>{/if}
 	<span class="icon-wrapper">
-		<ArrowIcon />
+		<ArrowIcon width="17" height="17" />
 	</span>
 </a>
 
 <style>
 	a {
+		--icon-size: 17px;
+		line-height: 1.4;
 		color: var(--link-color);
 		padding-bottom: 0.1em;
 		text-decoration: transparent;
@@ -52,14 +54,16 @@
 		text-transform: uppercase;
 		gap: var(--spacing-lg);
 		font-family: var(--font-caption);
-		align-items: center;
+		align-items: start;
 
 		.icon-wrapper {
-			display: inline-flex;
-			transform: translateX(calc(var(--spacing-md) - var(--spacing-lg)));
+			--offset: calc((1lh - var(--icon-size)) / 2 + 0.15em);
 
+			display: inline-flex;
+			flex-shrink: 0; /* icoon blijft 18px, ook bij lange tekst */
+			transform: translateX(calc(var(--spacing-md) - var(--spacing-lg))) translateY(var(--offset));
 			@media (prefers-reduced-motion: no-preference) {
-				transition: all 0.5s ease-in-out;
+				transition: transform 0.5s ease-in-out;
 			}
 		}
 
@@ -68,7 +72,7 @@
 			cursor: pointer;
 		}
 		&:hover .icon-wrapper {
-			transform: translateX(0);
+			transform: translateX(0) translateY(var(--offset));
 		}
 
 		&.sm {
