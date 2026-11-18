@@ -1,6 +1,7 @@
 ---
 title: "NEBULA-Xplorer"
 layout: "layouts/home.html"
+
 intro:
   eyebrow: "Exploring the mysteries of"
   main: "Black Holes"
@@ -9,6 +10,7 @@ intro:
   buttonUrl: "/mission"
   image: "/images/Header.png"
   imageAlt: ""
+
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
   summary: 'This is the project site you build when you take the “Learn
