@@ -1,14 +1,12 @@
 ---
-title: "Hello, world"
+title: "NEBULA-Xplorer"
 layout: "layouts/home.html"
 intro:
-  eyebrow: "Digital Marketing is our"
-  main: "Bread & Butter"
-  summary: "Let us help you create the perfect campaign with our multi-faceted team of talented creatives."
-  buttonText: "See our work"
-  buttonUrl: "/work"
+  eyebrow: "Exploring the mysteries of"
+  main: "Black Holes"
+  summary: "Discover NEBULA-Xplorer, a Dutch educational satellite mission exploring black holes and their binary star systems through X-ray observations."
+  buttonText: "Discover the mission"
+  buttonUrl: "/mission"
   image: "/images/Header.png"
   imageAlt: ""
 ---
-
-This is pretty _rad_, right?
