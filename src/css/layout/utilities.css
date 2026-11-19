@@ -1,0 +1,59 @@
+main {
+    padding: 0 var(--spacing-md);
+
+    @media (min-width: 768px) {
+        padding: 0 var(--spacing-xl);
+    }
+}
+
+.prose > * {
+    margin: 0;
+}
+
+.prose {
+    --flow-space: var(--step-0);
+}
+
+.prose > * + * {
+    margin-block-start: var(--flow-space);
+}
+
+.prose > :is(h1, h2) {
+    --flow-space: var(--step-3);
+}
+
+.prose > :is(h3, h4) {
+    --flow-space: var(--step-2);
+}
+
+.prose > :is(h5, h6) {
+    --flow-space: var(--step-1);
+}
+
+.prose > :is(h2, h3, h4) + * {
+    --flow-space: var(--step-min-1);
+}
+
+.prose > h5 + * {
+    --flow-space: var(--step-min-2);
+}
+
+.prose > h6 + * {
+    --flow-space: var(--step-min-3);
+}
+
+.prose :is(ul, ol) {
+    padding-inline-start: 1.5em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
