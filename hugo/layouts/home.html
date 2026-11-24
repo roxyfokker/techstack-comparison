@@ -1,4 +1,9 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    {{ partial "atoms/paragraph.html" (dict "text" "Welkom bij NEBULA-Xplorer") }}
+
+    <section class="prose">
+        {{ partial "atoms/heading.html" (dict "text" .Title "headingLevel" 2) }}
+        {{ .Content }}
+    </section>
 {{ end }}

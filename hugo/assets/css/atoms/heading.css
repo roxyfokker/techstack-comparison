@@ -1,0 +1,27 @@
+.heading {
+	display: flex;
+	flex-direction: column;
+
+	&.light { color-scheme: light; }
+	&.dark { color-scheme: dark; }
+
+	.title {
+		--heading-text: light-dark(
+			var(--color-brand-darkest),
+			var(--color-neutral-lightest)
+		);
+		color: var(--heading-text);
+	}
+
+	.subheading {
+		--subheading-text: light-dark(
+			var(--color-accent-dark),
+			var(--color-accent-mid)
+		);
+		color: var(--subheading-text);
+		letter-spacing: 0.05em;
+		font-family: var(--font-caption);
+		text-transform: uppercase;
+		font-size: 1em;
+	}
+}

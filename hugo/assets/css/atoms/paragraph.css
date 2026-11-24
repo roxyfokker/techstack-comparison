@@ -1,0 +1,14 @@
+.paragraph {
+	--paragraph-text: light-dark(
+		var(--color-brand-darkest),
+		var(--color-neutral-lightest)
+	);
+	color: var(--paragraph-text);
+
+	&.light {
+		color-scheme: light;
+	}
+	&.dark {
+		color-scheme: dark;
+	}
+}

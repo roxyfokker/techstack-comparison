@@ -1,0 +1,24 @@
+<!--
+    Props:
+  - text                string - heading text
+  - headingLevel        int    - 1 t/m 6 - default: 2
+  - theme               string - "auto" | "light" | "dark" - default: "auto"
+  - subheading          string - optional
+  - subheadingPosition  string - "above" | "below" - default: "above"
+-->
+
+{{ $level := .headingLevel | default 2 }}
+{{ $theme := .theme | default "auto" }}
+{{ $position := .subheadingPosition | default "above" }}
+
+<hgroup class="heading {{ $theme }}">
+	{{ if and .subheading (eq $position "above") }}
+		<p class="subheading">{{ .subheading }}</p>
+	{{ end }}
+
+	{{ printf `<h%d class="title">%s</h%d>` $level (.text | htmlEscape) $level | safeHTML }}
+
+	{{ if and .subheading (eq $position "below") }}
+		<p class="subheading">{{ .subheading }}</p>
+	{{ end }}
+</hgroup>
