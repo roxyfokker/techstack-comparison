@@ -1,7 +1,20 @@
+# Misc
+*.log
+npm-debug.*
+.DS_Store
+.env
+.cache
+
+# Dependencies en output (alle frameworks)
 node_modules/
-.svelte-kit/
-public/
-resources/
+dist/
 _site/
+.svelte-kit/
 .next/
+next-env.d.ts
+*.tsbuildinfo
+
+# Hugo
+/hugo/public/
+/hugo/resources/
 .hugo_build.lock
