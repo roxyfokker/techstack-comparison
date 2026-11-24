@@ -4,8 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ .Title }}</title>
-        <link rel="stylesheet" href="css/main.css">
         <link rel="preload" href="/fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+        {{ $files := slice }}
+        {{ range slice "base" "atoms" "molecules" "organisms" }}
+        {{ $files = $files | append (resources.Match (printf "css/%s/*.css" .)) }}
+        {{ end }}
+        {{ $css := $files | resources.Concat "css/main.css" | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+        
     </head>
     <body>{{ block "main" . }}{{ end }}</body>
 </html>
