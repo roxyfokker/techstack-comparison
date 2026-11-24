@@ -6,5 +6,9 @@ npm-debug.*
 .cache
 
 # Node modules and output
-node_modules
-dist
+node_modules/
+dist/
+_site/
+
+# Restanten van andere branches
+.svelte-kit/
