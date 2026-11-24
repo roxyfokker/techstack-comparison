@@ -1,0 +1,7 @@
+node_modules/
+.svelte-kit/
+public/
+resources/
+_site/
+.next/
+.hugo_build.lock
