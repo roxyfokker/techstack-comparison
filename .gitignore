@@ -5,10 +5,16 @@ npm-debug.*
 .env
 .cache
 
-# Node modules and output
+# Dependencies en output (alle frameworks)
 node_modules/
 dist/
 _site/
-
-# Restanten van andere branches
 .svelte-kit/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# Hugo
+/hugo/public/
+/hugo/resources/
+.hugo_build.lock
