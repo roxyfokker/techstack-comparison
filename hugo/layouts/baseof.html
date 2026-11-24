@@ -1,26 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="{{ .Description }}" />
-    {{ with resources.Get "css/main.css" }}
-      {{ $css := . | css.Minify | fingerprint }}
-      <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
-    {{ end }}
-    <title>
-      {{ if .IsHome }}{{ site.Title }}
-      {{ else }}{{ Page.Title }} | {{ site.Title}}
-      {{ end }}
-    </title>
-  </head>
-
-  <body>
-
-    <main>
-      {{ block "main" . }}
-      {{ end }}
-    </main>
-
-  </body>
+    <head>
+        <meta charset="utf-8"><title>{{ .Title }}</title>
+    </head>
+    <body>{{ block "main" . }}{{ end }}</body>
 </html>

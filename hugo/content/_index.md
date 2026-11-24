@@ -1,4 +1,6 @@
 +++
-draft = true
+title = "Home"
+draft = false
 +++
 
+This is Home
