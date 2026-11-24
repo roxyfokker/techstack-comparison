@@ -1,0 +1,8 @@
+<!--
+    Props:
+    - theme    string - "auto" "light" "dark" - default: "auto"
+    - text     string - paragraph text
+-->
+
+{{ $theme := .theme | default "auto" }}
+<p class="paragraph {{ $theme }}">{{ .text }}</p>
