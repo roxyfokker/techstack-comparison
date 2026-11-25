@@ -3,7 +3,7 @@ NEBULA-Xplorer built in three tech stacks (SvelteKit, 11ty, React and ...) to co
 
 Svelte [Livelink](https://techstack-svelte.netlify.app/)
 
-11ty [Livelink](https://techstack-11-ty.netlify.app/)
+11ty [Livelink](techstack-11ty-git-11ty-roxy-19f1.vercel.app)
 
 ReactNext [Livelink](https://techstack-reactnext.netlify.app/)
 
