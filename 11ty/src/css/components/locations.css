@@ -1,4 +1,6 @@
 .location-component {
+	display: flex;
+
 	.location {
 		position: relative;
 		display: grid;
@@ -13,9 +15,6 @@
 			height: auto;
 			display: block;
 		}
-	}
-	ul {
-		display: flex;
 	}
 	.label {
 		color: var(--color-neutral-lightest);
