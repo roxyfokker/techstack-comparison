@@ -1,7 +1,5 @@
 <script>
-	import { Hero } from '$lib/components/organisms'
 	import { Heading, Paragraph, Link } from '$lib/components/atoms'
-	import missionImage from '$lib/assets/images/hero-background-01.jpg'
 </script>
 
 <svelte:head>
