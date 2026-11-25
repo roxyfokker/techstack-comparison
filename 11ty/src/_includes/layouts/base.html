@@ -7,9 +7,10 @@
 		<title>{{ title }}</title>
 	</head>
 	<body>
-        {% include "partials/site-head.html" %}
+        {% include "partials/organisms/site-head.html" %}
 		<main tabindex="-1" id="main-content">
             {% block content %}{% endblock %}
         </main>
+		{% include "partials/organisms/footer.html" %}
 	</body>
 </html>
