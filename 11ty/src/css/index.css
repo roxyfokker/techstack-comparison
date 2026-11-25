@@ -1,9 +1,9 @@
-@import './base/reset.css';
-@import './base/tokens.css';
-@import './base/typography.css';
+@import "./base/reset.css";
+@import "./base/tokens.css";
+@import "./base/typography.css";
 
-@import './layout/utilities.css';
+@import "./layout/utilities.css";
 
-@import './components/skip-link.css';
-@import './components/footer.css';
-@import './components/locations.css'
+@import "./components/skip-link.css";
+@import "./components/footer.css";
+@import "./components/locations.css";

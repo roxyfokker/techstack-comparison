@@ -2,7 +2,7 @@
 	"scripts": {
 		"start": "eleventy --serve",
 		"build": "eleventy",
-		"format": "prettier --write ."
+		"format": "prettier --write \"src/**/*.{css,js,json,md}\" eleventy.config.js"
 	},
 	"type": "module",
 	"dependencies": {
