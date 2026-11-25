@@ -1,8 +1,9 @@
 {% from "partials/atoms/navigation-link.html" import navigationLink %}
+{% from "partials/atoms/skip-link.html" import skipLink %}
 
-<a href="#main-content">Skip to content</a>
+{{ skipLink("#main", "Skip to main content") }}
 
-<header role="banner" class="site-head">
+<header>
 	<div class="wrapper">
 		<div class="site-head__inner">
 			<a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
