@@ -8,7 +8,7 @@
 	--brand-mid-l: 29%;
 	--brand-light-l: 45%;
 	--brand-lighter-l: 60%;
-	--brand-lightest-l: 76%;
+	--brand-lightest-l: 75%;
 
 	--color-brand-darkest: hsl(var(--brand-h), var(--brand-s), var(--brand-darkest-l));
 	--color-brand-darker: hsl(var(--brand-h), var(--brand-s), var(--brand-darker-l));
