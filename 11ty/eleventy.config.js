@@ -5,6 +5,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.setOutputDirectory('dist')
 
 	// Set directories to pass through to the dist folder
+	eleventyConfig.addPassthroughCopy('src/fonts')
 	eleventyConfig.addPassthroughCopy('src/images')
 	eleventyConfig.addPassthroughCopy('src/css')
 
