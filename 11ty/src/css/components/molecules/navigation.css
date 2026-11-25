@@ -1,0 +1,20 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	gap: var(--spacing-lg);
+
+	ul {
+		display: flex;
+		gap: var(--spacing-xl);
+		color: var(--color-neutral-lighter);
+	}
+
+	&.navigation--column {
+		align-items: flex-start;
+
+		ul {
+			flex-direction: column;
+			gap: var(--spacing-lg);
+		}
+	}
+}

@@ -1,23 +1,25 @@
-{% from "partials/atoms/navigation-link.html" import navigationLink %}
+{% from "partials/atoms/navigation-link.html" import navigationLink %} 
 {% from "partials/atoms/skip-link.html" import skipLink %}
+{% from "partials/atoms/hamburger-button.html" import hamburgerButton %}
+{% from "partials/molecules/navigation.html" import mainNavigation %}
+{% from "partials/molecules/search.html" import search %}
 
-{{ skipLink("#main", "Skip to main content") }}
+{{ skipLink("#main-content", "Skip to main content") }}
 
-<header>
-	<div class="wrapper">
-		<div class="site-head__inner">
-			<a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
-				<img src="/images/SRON_Full_White.webp" alt="SRON" width="150" height="40">
-			</a>
-			<nav aria-label="Primary">
-				<ul class="nav__list">
-					{% for item in navigation.items %}
-						<li>
-							{{ navigationLink(item.url, item.text, helpers.getLinkActiveState(item.url, page.url), "nav-link") }}
-						</li>
-					{% endfor %}
-				</ul>
-			</nav>
+<header class="header">
+	{{ hamburgerButton() }}
+
+	<section class="header__bar">
+		{{ mainNavigation(navigation.items, page.url, helpers) }}
+		{{ search() }}
+	</section>
+
+	<img class="header__logo" src="/images/SRON_Full_White.webp" alt="SRON" width="150" height="40">
+
+	<section id="menu" class="menu" popover>
+		<div class="menu-close">
+			{{ hamburgerButton(true) }}
 		</div>
-	</div>
+		{{ mainNavigation(navigation.items, page.url, helpers, "column") }}
+	</section>
 </header>

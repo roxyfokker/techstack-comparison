@@ -13,5 +13,13 @@
         </main>
 		{% include "partials/organisms/locations.html" %}
 		{% include "partials/organisms/footer.html" %}
+
+		<script>
+			const header = document.querySelector('.header')
+			const update = () => header.classList.toggle('scrolled', window.scrollY > 10)
+
+			update()
+			window.addEventListener('scroll', update, { passive: true })
+		</script>
 	</body>
 </html>

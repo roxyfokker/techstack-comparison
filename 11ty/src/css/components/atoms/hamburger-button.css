@@ -1,0 +1,28 @@
+.hamburger-button {
+	background: var(--color-accent-dark);
+	border: none;
+	padding: var(--spacing-md);
+	svg {
+		width: 2rem;
+	}
+	.line {
+		transform-origin: center;
+	}
+	&.hamburger-button--close {
+		:is(.top, .bottom) {
+			y: 45px;
+		}
+
+		.top {
+			rotate: 45deg;
+		}
+
+		.bottom {
+			rotate: -45deg;
+		}
+
+		.middle {
+			opacity: 0;
+		}
+	}
+}

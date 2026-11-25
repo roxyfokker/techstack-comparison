@@ -1,0 +1,13 @@
+{% from "partials/atoms/navigation-link.html" import navigationLink %}
+
+{% macro mainNavigation(items, currentUrl, helpers, layout = "row") %}
+	<nav class="navigation navigation--{{ layout }}">
+		<ul class="nav__list">
+			{% for item in items %}
+				<li>
+					{{ navigationLink(item.url, item.text, helpers.getLinkActiveState(item.url, currentUrl), "navigation-link") }}
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
+{% endmacro %}
