@@ -1,32 +1,32 @@
 {
-  "items": [
-    {
-      "text": "Home",
-      "url": "/"
-    },
-    {
-      "text": "Mission",
-      "url": "/mission/"
-    },
-    {
-      "text": "Assignments",
-      "url": "/assignments/"
-    },
-    {
-      "text": "Partners",
-      "url": "/partners/"
-    },
-    {
-      "text": "Science",
-      "url": "/science/"
-    },
-    {
-      "text": "Teams",
-      "url": "/teams/"
-    },
-    {
-      "text": "Technology",
-      "url": "/technology/"
-    }
-  ]
+	"items": [
+		{
+			"text": "Home",
+			"url": "/"
+		},
+		{
+			"text": "Mission",
+			"url": "/mission/"
+		},
+		{
+			"text": "Assignments",
+			"url": "/assignments/"
+		},
+		{
+			"text": "Partners",
+			"url": "/partners/"
+		},
+		{
+			"text": "Science",
+			"url": "/science/"
+		},
+		{
+			"text": "Teams",
+			"url": "/teams/"
+		},
+		{
+			"text": "Technology",
+			"url": "/technology/"
+		}
+	]
 }

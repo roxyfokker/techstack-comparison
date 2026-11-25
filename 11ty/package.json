@@ -12,5 +12,11 @@
 	},
 	"devDependencies": {
 		"prettier": "^3.10.1"
+	},
+	"prettier": {
+	"useTabs": true,
+	"tabWidth": 4,
+	"singleQuote": true,
+	"semi": false
 	}
 }
