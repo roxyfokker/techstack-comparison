@@ -10,7 +10,7 @@
 	{{ hamburgerButton() }}
 
 	<section class="header__bar">
-		{{ mainNavigation(navigation.items, page.url, helpers) }}
+		{{ mainNavigation(navigation.items, page.url, helpers, "column") }}
 		{{ search() }}
 	</section>
 
@@ -20,6 +20,6 @@
 		<div class="menu-close">
 			{{ hamburgerButton(true) }}
 		</div>
-		{{ mainNavigation(navigation.items, page.url, helpers, "column") }}
+		{{ mainNavigation(navigation.items, page.url, helpers, "row") }}
 	</section>
 </header>
