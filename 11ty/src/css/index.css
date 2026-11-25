@@ -10,6 +10,7 @@
 @import './components/atoms/navigation-link.css';
 @import './components/atoms/skip-link.css';
 @import './components/atoms/hamburger-button.css';
+@import './components/atoms/link.css';
 
 /*Molecules*/
 @import './components/molecules/search.css';

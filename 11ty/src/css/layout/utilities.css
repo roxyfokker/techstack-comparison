@@ -1,9 +1,5 @@
 main {
-	padding: 0 var(--spacing-md);
-
-	@media (min-width: 768px) {
-		padding: 0 var(--spacing-xl);
-	}
+	padding: 8rem 6.9rem;
 }
 
 .prose > * {

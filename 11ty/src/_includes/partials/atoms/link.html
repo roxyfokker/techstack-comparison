@@ -1,0 +1,14 @@
+{% macro link(href, text, hiddenText = "", size = "", color = "var(--color-neutral-darkest)", bold = false, stretched = false, classes = "", attrs = "") %}
+	<a
+		href="{{ href }}"
+		class="link{% if size %} link--{{ size }}{% endif %}{% if bold %} link--bold{% endif %}{% if stretched %} link--stretched{% endif %}{% if classes %} {{ classes }}{% endif %}"
+		style="--link-color: {{ color }};"
+		{{ attrs | safe }}
+	>
+		{{ text }}
+		{% if hiddenText %}<span class="visually-hidden">{{ hiddenText }}</span>{% endif %}
+		<span class="link__icon">
+			{% include "partials/atoms/arrow-icon.svg" %}
+		</span>
+	</a>
+{% endmacro %}
