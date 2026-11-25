@@ -14,10 +14,11 @@
 
 /*Molecules*/
 @import './components/molecules/search.css';
+@import './components/molecules/navigation.css';
 
 /*Organisms*/
 @import './components/organisms/footer.css';
 @import './components/organisms/locations.css';
 @import './components/organisms/site-head.css';
-@import './components/organisms/navigation.css';
+
 
