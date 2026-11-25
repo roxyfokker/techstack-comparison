@@ -1,3 +1,5 @@
+{% from "partials/atoms/navigation-link.html" import navigationLink %}
+
 <a href="#main-content">Skip to content</a>
 
 <header role="banner" class="site-head">
@@ -9,11 +11,9 @@
 			<nav aria-label="Primary">
 				<ul class="nav__list">
 					{% for item in navigation.items %}
-					<li>
-						<a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
-							>{{ item.text }}</a
-						>
-					</li>
+						<li>
+							{{ navigationLink(item.url, item.text, helpers.getLinkActiveState(item.url, page.url), "nav-link") }}
+						</li>
 					{% endfor %}
 				</ul>
 			</nav>

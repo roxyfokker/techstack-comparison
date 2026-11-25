@@ -1,0 +1,8 @@
+{% macro navigationLink(href, label, attrs = "", classes = "") %}
+	<a 
+        href="{{ href }}" 
+        {% if classes %}class="{{ classes }} navigation-link"{% endif %} 
+        {{ attrs | safe }}>
+        {{ label }}
+    </a>
+{% endmacro %}

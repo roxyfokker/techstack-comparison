@@ -1,9 +1,19 @@
+/*Base*/
 @import './base/reset.css';
 @import './base/tokens.css';
 @import './base/typography.css';
 
+/*Utils*/
 @import './layout/utilities.css';
 
-@import './components/skip-link.css';
-@import './components/footer.css';
-@import './components/locations.css';
+/*Atoms*/
+@import './components/atoms/navigation-link.css';
+@import './components/atoms/skip-link.css';
+
+/*Molecules*/
+
+/*Organisms*/
+@import './components/organisms/footer.css';
+@import './components/organisms/locations.css';
+@import './components/organisms/header.css';
+
