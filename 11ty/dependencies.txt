@@ -1,0 +1,227 @@
+11ty@ C:\Users\roxyf\Documents\FNDN\techstack-comparison\11ty
+Γö£ΓöÇΓö¼ @11ty/eleventy-img@7.1.1
+Γöé Γö£ΓöÇΓö¼ @11ty/eleventy-fetch@6.0.1
+Γöé Γöé Γö£ΓöÇΓöÇ @11ty/eleventy-utils@3.1.0
+Γöé Γöé Γö£ΓöÇΓöÇ @rgrove/parse-xml@5.2.0
+Γöé Γöé Γö£ΓöÇΓöÇ debug@4.4.3 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ flatted@3.4.4
+Γöé Γöé ΓööΓöÇΓöÇ p-queue@10.0.0 deduped
+Γöé Γö£ΓöÇΓöÇ @11ty/eleventy-utils@2.0.7
+Γöé Γö£ΓöÇΓö¼ brotli-size@4.0.0
+Γöé Γöé ΓööΓöÇΓöÇ duplexer@0.1.1
+Γöé Γö£ΓöÇΓöÇ entities@8.1.0
+Γöé Γö£ΓöÇΓöÇ obug@3.0.0
+Γöé Γö£ΓöÇΓöÇ p-queue@10.0.0
+Γöé ΓööΓöÇΓö¼ sharp@0.35.5
+Γöé   Γö£ΓöÇΓöÇ @img/colour@1.1.0
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-darwin-arm64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-darwin-x64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-freebsd-wasm32@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-darwin-arm64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-darwin-x64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linux-arm@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linux-arm64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linux-ppc64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linux-riscv64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linux-s390x@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linux-x64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linuxmusl-arm64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-libvips-linuxmusl-x64@1.3.4
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linux-arm@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linux-arm64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linux-ppc64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linux-riscv64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linux-s390x@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linux-x64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linuxmusl-arm64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-linuxmusl-x64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-webcontainers-wasm32@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-win32-arm64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @img/sharp-win32-ia32@0.35.5
+Γöé   Γö£ΓöÇΓöÇ @img/sharp-win32-x64@0.35.5
+Γöé   Γö£ΓöÇΓöÇ detect-libc@2.1.2
+Γöé   ΓööΓöÇΓöÇ semver@7.8.6 deduped
+Γö£ΓöÇΓö¼ @11ty/eleventy@3.1.8
+Γöé Γö£ΓöÇΓö¼ @11ty/chokidar-with-glob-support@1.1.1
+Γöé Γöé Γö£ΓöÇΓö¼ chokidar@4.0.3
+Γöé Γöé Γöé ΓööΓöÇΓöÇ readdirp@4.1.2
+Γöé Γöé ΓööΓöÇΓöÇ picomatch@4.0.7 deduped
+Γöé Γö£ΓöÇΓö¼ @11ty/dependency-tree-esm@2.0.4
+Γöé Γöé Γö£ΓöÇΓöÇ @11ty/eleventy-utils@2.0.7 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ acorn@8.19.0
+Γöé Γöé Γö£ΓöÇΓöÇ dependency-graph@1.0.0 deduped
+Γöé Γöé ΓööΓöÇΓöÇ normalize-path@3.0.0
+Γöé Γö£ΓöÇΓö¼ @11ty/dependency-tree@4.0.2
+Γöé Γöé ΓööΓöÇΓöÇ @11ty/eleventy-utils@2.0.7 deduped
+Γöé Γö£ΓöÇΓö¼ @11ty/eleventy-dev-server@2.1.2
+Γöé Γöé Γö£ΓöÇΓöÇ @11ty/chokidar-with-glob-support@1.1.1 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ @11ty/eleventy-utils@2.0.7 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ debug@4.4.3 deduped
+Γöé Γöé Γö£ΓöÇΓö¼ finalhandler@1.3.2
+Γöé Γöé Γöé Γö£ΓöÇΓö¼ debug@2.6.9
+Γöé Γöé Γöé Γöé ΓööΓöÇΓöÇ ms@2.0.0
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ encodeurl@2.0.3
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ escape-html@1.0.3
+Γöé Γöé Γöé Γö£ΓöÇΓö¼ on-finished@2.4.2
+Γöé Γöé Γöé Γöé ΓööΓöÇΓöÇ ee-first@1.1.1
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ parseurl@1.3.3
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ statuses@2.0.2
+Γöé Γöé Γöé ΓööΓöÇΓöÇ unpipe@1.0.0
+Γöé Γöé Γö£ΓöÇΓöÇ mime@3.0.0
+Γöé Γöé Γö£ΓöÇΓöÇ minimist@1.2.8 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ morphdom@2.7.8
+Γöé Γöé Γö£ΓöÇΓöÇ please-upgrade-node@3.2.0 deduped
+Γöé Γöé Γö£ΓöÇΓö¼ send@1.2.1
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ debug@4.4.3 deduped
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ encodeurl@2.0.3 deduped
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ escape-html@1.0.3 deduped
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ etag@1.8.1
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ fresh@2.0.0
+Γöé Γöé Γöé Γö£ΓöÇΓö¼ http-errors@2.0.1
+Γöé Γöé Γöé Γöé Γö£ΓöÇΓöÇ depd@2.0.0
+Γöé Γöé Γöé Γöé Γö£ΓöÇΓöÇ inherits@2.0.4
+Γöé Γöé Γöé Γöé Γö£ΓöÇΓöÇ setprototypeof@1.2.0
+Γöé Γöé Γöé Γöé Γö£ΓöÇΓöÇ statuses@2.0.2 deduped
+Γöé Γöé Γöé Γöé ΓööΓöÇΓöÇ toidentifier@1.0.1
+Γöé Γöé Γöé Γö£ΓöÇΓö¼ mime-types@3.0.2
+Γöé Γöé Γöé Γöé ΓööΓöÇΓöÇ mime-db@1.54.0
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ ms@2.1.3 deduped
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ on-finished@2.4.2 deduped
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ range-parser@1.3.0
+Γöé Γöé Γöé ΓööΓöÇΓöÇ statuses@2.0.2 deduped
+Γöé Γöé Γö£ΓöÇΓö¼ ssri@11.0.0
+Γöé Γöé Γöé ΓööΓöÇΓöÇ minipass@7.1.3
+Γöé Γöé Γö£ΓöÇΓöÇ urlpattern-polyfill@10.1.0
+Γöé Γöé ΓööΓöÇΓö¼ ws@8.23.0
+Γöé Γöé   Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY bufferutil@^4.0.1
+Γöé Γöé   ΓööΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY utf-8-validate@>=5.0.2
+Γöé Γö£ΓöÇΓö¼ @11ty/eleventy-plugin-bundle@3.0.7
+Γöé Γöé Γö£ΓöÇΓöÇ @11ty/eleventy-utils@2.0.7 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ debug@4.4.3 deduped
+Γöé Γöé ΓööΓöÇΓöÇ posthtml-match-helper@2.0.3 deduped
+Γöé Γö£ΓöÇΓöÇ @11ty/eleventy-utils@2.0.7 deduped
+Γöé Γö£ΓöÇΓöÇ @11ty/lodash-custom@4.17.21
+Γöé Γö£ΓöÇΓö¼ @11ty/posthtml-urls@1.0.3
+Γöé Γöé Γö£ΓöÇΓöÇ evaluate-value@2.0.0
+Γöé Γöé Γö£ΓöÇΓöÇ http-equiv-refresh@2.0.1
+Γöé Γöé Γö£ΓöÇΓöÇ list-to-array@1.1.0
+Γöé Γöé ΓööΓöÇΓöÇ parse-srcset@1.0.2
+Γöé Γö£ΓöÇΓö¼ @11ty/recursive-copy@4.0.6
+Γöé Γöé Γö£ΓöÇΓö¼ brace-expansion@1.1.22
+Γöé Γöé Γöé Γö£ΓöÇΓöÇ balanced-match@1.0.2
+Γöé Γöé Γöé ΓööΓöÇΓöÇ concat-map@0.0.1
+Γöé Γöé Γö£ΓöÇΓö¼ errno@1.0.0
+Γöé Γöé Γöé ΓööΓöÇΓöÇ prr@1.0.1
+Γöé Γöé Γö£ΓöÇΓöÇ junk@3.1.0
+Γöé Γöé ΓööΓöÇΓöÇ slash@3.0.0
+Γöé Γö£ΓöÇΓö¼ @sindresorhus/slugify@2.2.1
+Γöé Γöé Γö£ΓöÇΓö¼ @sindresorhus/transliterate@1.6.0
+Γöé Γöé Γöé ΓööΓöÇΓöÇ escape-string-regexp@5.0.0 deduped
+Γöé Γöé ΓööΓöÇΓöÇ escape-string-regexp@5.0.0
+Γöé Γö£ΓöÇΓö¼ bcp-47-normalize@2.3.0
+Γöé Γöé Γö£ΓöÇΓöÇ bcp-47-match@2.0.3
+Γöé Γöé ΓööΓöÇΓö¼ bcp-47@2.1.2
+Γöé Γöé   Γö£ΓöÇΓöÇ is-alphabetical@2.0.1
+Γöé Γöé   Γö£ΓöÇΓö¼ is-alphanumerical@2.0.1
+Γöé Γöé   Γöé Γö£ΓöÇΓöÇ is-alphabetical@2.0.1 deduped
+Γöé Γöé   Γöé ΓööΓöÇΓöÇ is-decimal@2.0.1 deduped
+Γöé Γöé   ΓööΓöÇΓöÇ is-decimal@2.0.1
+Γöé Γö£ΓöÇΓö¼ debug@4.4.3
+Γöé Γöé ΓööΓöÇΓöÇ ms@2.1.3
+Γöé Γö£ΓöÇΓöÇ dependency-graph@1.0.0
+Γöé Γö£ΓöÇΓöÇ entities@6.0.1
+Γöé Γö£ΓöÇΓöÇ filesize@10.1.6
+Γöé Γö£ΓöÇΓö¼ gray-matter@npm:@11ty/gray-matter@1.0.0
+Γöé Γöé Γö£ΓöÇΓöÇ js-yaml@4.3.2 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ kind-of@6.0.3
+Γöé Γöé Γö£ΓöÇΓö¼ section-matter@1.0.0
+Γöé Γöé Γöé Γö£ΓöÇΓö¼ extend-shallow@2.0.1
+Γöé Γöé Γöé Γöé ΓööΓöÇΓöÇ is-extendable@0.1.1
+Γöé Γöé Γöé ΓööΓöÇΓöÇ kind-of@6.0.3 deduped
+Γöé Γöé ΓööΓöÇΓöÇ strip-bom-string@1.0.0
+Γöé Γö£ΓöÇΓöÇ iso-639-1@3.1.6
+Γöé Γö£ΓöÇΓö¼ js-yaml@4.3.2
+Γöé Γöé ΓööΓöÇΓöÇ argparse@2.0.1
+Γöé Γö£ΓöÇΓöÇ kleur@4.1.5
+Γöé Γö£ΓöÇΓö¼ liquidjs@10.30.1
+Γöé Γöé ΓööΓöÇΓöÇ commander@10.0.1
+Γöé Γö£ΓöÇΓöÇ luxon@3.7.2
+Γöé Γö£ΓöÇΓö¼ markdown-it@14.3.3
+Γöé Γöé Γö£ΓöÇΓöÇ argparse@2.0.1 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ entities@4.5.0
+Γöé Γöé Γö£ΓöÇΓö¼ linkify-it@5.0.2
+Γöé Γöé Γöé ΓööΓöÇΓöÇ uc.micro@2.1.0 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ mdurl@2.1.0
+Γöé Γöé Γö£ΓöÇΓöÇ punycode.js@2.3.1
+Γöé Γöé ΓööΓöÇΓöÇ uc.micro@2.1.0
+Γöé Γö£ΓöÇΓöÇ minimist@1.2.8
+Γöé Γö£ΓöÇΓöÇ moo@0.5.2
+Γöé Γö£ΓöÇΓö¼ node-retrieve-globals@6.0.1
+Γöé Γöé Γö£ΓöÇΓö¼ acorn-walk@8.3.5
+Γöé Γöé Γöé ΓööΓöÇΓöÇ acorn@8.19.0 deduped
+Γöé Γöé Γö£ΓöÇΓöÇ acorn@8.19.0 deduped
+Γöé Γöé ΓööΓöÇΓö¼ esm-import-transformer@3.0.5
+Γöé Γöé   ΓööΓöÇΓöÇ acorn@8.19.0 deduped
+Γöé Γö£ΓöÇΓö¼ nunjucks@3.2.4
+Γöé Γöé Γö£ΓöÇΓöÇ a-sync-waterfall@1.0.1
+Γöé Γöé Γö£ΓöÇΓöÇ asap@2.0.6
+Γöé Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY chokidar@^3.3.0
+Γöé Γöé ΓööΓöÇΓöÇ commander@5.1.0
+Γöé Γö£ΓöÇΓöÇ picomatch@4.0.7
+Γöé Γö£ΓöÇΓö¼ please-upgrade-node@3.2.0
+Γöé Γöé ΓööΓöÇΓöÇ semver-compare@1.0.0
+Γöé Γö£ΓöÇΓö¼ posthtml-match-helper@2.0.3
+Γöé Γöé ΓööΓöÇΓöÇ posthtml@0.16.7 deduped
+Γöé Γö£ΓöÇΓö¼ posthtml@0.16.7
+Γöé Γöé Γö£ΓöÇΓö¼ posthtml-parser@0.11.0
+Γöé Γöé Γöé ΓööΓöÇΓö¼ htmlparser2@7.2.0
+Γöé Γöé Γöé   Γö£ΓöÇΓöÇ domelementtype@2.3.0
+Γöé Γöé Γöé   Γö£ΓöÇΓö¼ domhandler@4.3.1
+Γöé Γöé Γöé   Γöé ΓööΓöÇΓöÇ domelementtype@2.3.0 deduped
+Γöé Γöé Γöé   Γö£ΓöÇΓö¼ domutils@2.8.0
+Γöé Γöé Γöé   Γöé Γö£ΓöÇΓö¼ dom-serializer@1.4.1
+Γöé Γöé Γöé   Γöé Γöé Γö£ΓöÇΓöÇ domelementtype@2.3.0 deduped
+Γöé Γöé Γöé   Γöé Γöé Γö£ΓöÇΓöÇ domhandler@4.3.1 deduped
+Γöé Γöé Γöé   Γöé Γöé ΓööΓöÇΓöÇ entities@2.2.0
+Γöé Γöé Γöé   Γöé Γö£ΓöÇΓöÇ domelementtype@2.3.0 deduped
+Γöé Γöé Γöé   Γöé ΓööΓöÇΓöÇ domhandler@4.3.1 deduped
+Γöé Γöé Γöé   ΓööΓöÇΓöÇ entities@3.0.1
+Γöé Γöé ΓööΓöÇΓö¼ posthtml-render@3.0.0
+Γöé Γöé   ΓööΓöÇΓöÇ is-json@2.0.1
+Γöé Γö£ΓöÇΓöÇ semver@7.8.6
+Γöé Γö£ΓöÇΓöÇ slugify@1.6.9
+Γöé ΓööΓöÇΓö¼ tinyglobby@0.2.17
+Γöé   Γö£ΓöÇΓö¼ fdir@6.5.0
+Γöé   Γöé ΓööΓöÇΓöÇ picomatch@4.0.7 deduped
+Γöé   ΓööΓöÇΓöÇ picomatch@4.0.7 deduped
+Γö£ΓöÇΓö¼ @emnapi/runtime@1.11.3 extraneous
+Γöé ΓööΓöÇΓöÇ tslib@2.9.1 deduped
+Γö£ΓöÇΓö¼ @img/sharp-wasm32@0.35.5 extraneous
+Γöé ΓööΓöÇΓöÇ @emnapi/runtime@1.11.3 deduped
+Γö£ΓöÇΓö¼ gorko@0.9.1
+Γöé ΓööΓöÇΓö¼ sass@1.108.2
+Γöé   Γö£ΓöÇΓö¼ @parcel/watcher@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-android-arm64@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-darwin-arm64@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-darwin-x64@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-freebsd-x64@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-linux-arm-glibc@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-linux-arm-musl@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-linux-arm64-glibc@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-linux-arm64-musl@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-linux-x64-glibc@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-linux-x64-musl@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ UNMET OPTIONAL DEPENDENCY @parcel/watcher-win32-arm64@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ @parcel/watcher-win32-x64@2.6.0
+Γöé   Γöé Γö£ΓöÇΓöÇ detect-libc@2.1.2 deduped
+Γöé   Γöé Γö£ΓöÇΓö¼ is-glob@4.0.3
+Γöé   Γöé Γöé ΓööΓöÇΓöÇ is-extglob@2.1.1
+Γöé   Γöé Γö£ΓöÇΓöÇ node-addon-api@7.1.1
+Γöé   Γöé ΓööΓöÇΓöÇ picomatch@4.0.7 deduped
+Γöé   Γö£ΓöÇΓö¼ chokidar@5.0.0
+Γöé   Γöé ΓööΓöÇΓöÇ readdirp@5.1.1
+Γöé   Γö£ΓöÇΓöÇ immutable@5.2.1
+Γöé   ΓööΓöÇΓöÇ source-map-js@1.2.2
+Γö£ΓöÇΓöÇ prettier@3.10.1
+ΓööΓöÇΓöÇ tslib@2.9.1 extraneous
+
